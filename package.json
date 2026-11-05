@@ -1,0 +1,18 @@
+{
+  "name": "legaltech-image-delivery",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/signed_document_delivery.ts",
+    "test": "node --test src/signed_document_delivery.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.80.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
